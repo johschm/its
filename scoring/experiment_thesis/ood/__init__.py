@@ -1,0 +1,37 @@
+# Direct detectors
+import experiment_thesis.ood.direct.energy_prepare
+import experiment_thesis.ood.direct.logit_based_prepare
+import experiment_thesis.ood.direct.prob_prepare
+import experiment_thesis.ood.direct.targeted_prepare
+
+# Model-based detectors
+import experiment_thesis.ood.model.ash_prepare
+import experiment_thesis.ood.model.gradnorm_prepare
+import experiment_thesis.ood.model.laplace_prepare
+import experiment_thesis.ood.model.mc_prepare
+import experiment_thesis.ood.model.react_prepare
+import experiment_thesis.ood.model.react_all_prepare
+
+# Unsupervised classic detectors
+import experiment_thesis.ood.unsupervised.classic.dice_prepare
+import experiment_thesis.ood.unsupervised.classic.gaussian_prepare
+import experiment_thesis.ood.unsupervised.classic.gmm_prepare
+import experiment_thesis.ood.unsupervised.classic.gram_prepare
+import experiment_thesis.ood.unsupervised.classic.kde_prepare
+import experiment_thesis.ood.unsupervised.classic.kl_matching_prepare
+import experiment_thesis.ood.unsupervised.classic.knn_faiss_prepare
+import experiment_thesis.ood.unsupervised.classic.knn_pytorch_prepare
+import experiment_thesis.ood.unsupervised.classic.lof_prepare
+import experiment_thesis.ood.unsupervised.classic.mahalanobis_prepare
+import experiment_thesis.ood.unsupervised.classic.mahalanobis_single_prepare
+import experiment_thesis.ood.unsupervised.classic.openmax_prepare
+import experiment_thesis.ood.unsupervised.classic.pca_prepare
+import experiment_thesis.ood.unsupervised.classic.prototype_prepare
+import experiment_thesis.ood.unsupervised.classic.prototype_multi_layer_prepare
+import experiment_thesis.ood.unsupervised.classic.SHE_prepare
+import experiment_thesis.ood.unsupervised.classic.trust_score_prepare
+import experiment_thesis.ood.unsupervised.classic.vim_prepare
+import experiment_thesis.ood.unsupervised.classic.knn_guided_prepare
+import experiment_thesis.ood.unsupervised.classic.ash_last_prepare
+
+#note
